@@ -7,6 +7,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('select', {path: '/play/'}, function () {
+    this.route('resource-name', {path: '/:resource-name/'}, function () {
+      this.route('randomize', {path: '/:property/'});
+    });
+  });
 });
 
 export default Router;

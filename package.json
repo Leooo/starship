@@ -22,10 +22,12 @@
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-dependency-checker": "^2.0.0",
+    "ember-cli-emblem": "^0.10.0",
     "ember-cli-eslint": "^4.0.0",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-mirage": "^0.4.3",
     "ember-cli-qunit": "^4.0.0",
     "ember-cli-shims": "^1.1.0",
     "ember-cli-sri": "^2.1.0",
@@ -34,11 +36,13 @@
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
+    "ember-route-action-helper": "^2.0.6",
     "ember-source": "~2.16.0",
     "ember-welcome-page": "^3.0.0",
     "loader.js": "^4.2.3"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
-  }
+  },
+  "dependencies": {}
 }
