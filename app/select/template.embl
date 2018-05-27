@@ -1,6 +1,0 @@
-h3 Select which resource you want to play with:
-= select/comp-select [
-  resourceHash=model.resourceHash
-  onchangeResource=(route-action "onchangeResource")
-  ]
-= outlet

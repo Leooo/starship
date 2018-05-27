@@ -1,0 +1,9 @@
+{
+  "name": "starship",
+  "dependencies":  {
+    "isotope": "~2.2.0",
+    "isotope-packery": "~1.1.3",
+    "bootstrap": "3.3.4",
+    "moment": ">= 2.8.0"
+  }
+}

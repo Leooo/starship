@@ -9,5 +9,5 @@ export default DS.RESTSerializer.extend({
     id = id.toLowerCase().pluralize();
     payload[primaryKey] = id;
     return this._super(store, primaryModelClass, normalizedPayload, id, requestType);
-   }
+  }
 });

@@ -1,0 +1,8 @@
+= entries/card-holder/base-expandable-card/pivot [
+  colors=colors
+  title="Description"
+  pivotType='pivot-product-details' ] as |section|
+
+  if section.isBody
+    p.font-size-7.mb0.bold
+      = title
