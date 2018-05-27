@@ -1,6 +1,0 @@
-h3 Here are the results:
-= each model as |propertyValue|
-  = propertyValue
-  br
-
-= select/resource-name/randomize/compute-winner list=model

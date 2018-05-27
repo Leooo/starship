@@ -1,6 +1,0 @@
-.grid
-  each items as |item|
-    = entries/card-holder/card [
-      cardToggled='cardToggled'
-      item = item ]
-.po

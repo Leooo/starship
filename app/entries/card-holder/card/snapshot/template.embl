@@ -1,5 +1,0 @@
-= entries/card-holder/base-expandable-card/snapshot [
-  colors=colors
-  isExpanded=isExpanded
-  title=item.momentDate
-  onclick=(action attrs.toggle) ]

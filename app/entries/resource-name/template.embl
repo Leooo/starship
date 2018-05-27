@@ -1,8 +1,0 @@
-h3 How many instances fo you want to fetch?
-= input value=model.nbOfinstancesToFetch
-h3 Select which attribute you want to bet on:
-= select/comp-select [
-  resourceHash=model.properties
-  onchangeResource=(route-action "onchangeResourceName")
-  ]
-= outlet
